@@ -33,10 +33,19 @@ turtle.done()
 ```python
 import turtle
 t = turtle.Turtle()
-help() # get information for turtle module
-help(turtle.shape) # Get specific information for Turtle shape 
-t.shape() # get the current shape of cursor
-t.shape("turtle")  # change the cursor shape
+
+help(turtle) # Get help for the turtle module (use in interactive mode)
+help(turtle.shape) # Get specific information about the shape() method
+
+t.shape()
+t.shape(name)  # sets turtle shape
+
+t.color()  # e.g: t.color("red", "yellow")
+# Returns ['black', 'black']
+# First value  → pen (line / outline) color
+# Second value → fill color (used for filled shapes)
+
+
 ```
 
 ### 🟢 Movement Functions
