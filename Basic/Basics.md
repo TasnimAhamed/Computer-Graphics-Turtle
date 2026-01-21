@@ -1,4 +1,4 @@
-# 🐢 Learning Python Turtle for Computer Graphics
+# 🐢  Turtle for Computer Graphics
 
 ## 1️⃣ Introduction to Turtle Graphics
 
@@ -13,7 +13,7 @@ The turtle behaves like a pen that moves on a Cartesian plane and draws as it mo
 ## 2️⃣ Basic Setup & First Program
 
 ```python
-import turtle
+import turtle # from turtle import *
 
 t = turtle.Turtle()
 t.forward(100)
@@ -27,6 +27,12 @@ turtle.done()
 - **Drawing happens while the pen is down**
 
 ## 3️⃣ Core Turtle Functions (Must Learn)
+
+### 🟢 Basic Functions
+
+```python
+t.shape() #
+```
 
 ### 🟢 Movement Functions
 
