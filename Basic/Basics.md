@@ -34,6 +34,13 @@ turtle.done()
 import turtle
 t = turtle.Turtle()
 
+# Create the turtle screen
+screen = turtle.Screen()
+# Access the underlying Tkinter window used by turtle
+root = screen._root
+# Make the turtle window stay always on top
+root.wm_attributes("-topmost", 1)
+
 help(turtle) # Get help for the turtle module (use in interactive mode)
 help(turtle.shape) # Get specific information about the shape() method
 
@@ -45,6 +52,11 @@ t.color()  # e.g: t.color("red", "yellow")
 # First value  → pen (line / outline) color
 # Second value → fill color (used for filled shapes)
 
+# Set RGB color mode (0-255)
+turtle.colormode(255)
+
+# Use RGB values
+t.color(255, 0, 0)
 
 ```
 
@@ -53,6 +65,7 @@ t.color()  # e.g: t.color("red", "yellow")
 ```python
 t.forward(distance)
 t.backward(distance)
+
 t.left(angle)
 t.right(angle)
 ```
