@@ -1,7 +1,5 @@
 # 🐢 Learning Python Turtle for Computer Graphics
 
-This document provides a step-by-step learning guide for Python Turtle Graphics, covering basic drawing, essential functions, and core computer graphics algorithms required for laboratory experiments.
-
 ## 1️⃣ Introduction to Turtle Graphics
 
 Turtle Graphics is a Python library used to introduce students to:
@@ -253,15 +251,6 @@ t.begin_fill()
 t.circle(50)
 t.end_fill()
 ```
-
-## 🔟 What You Will Learn from This Process
-
-- Basic graphics programming
-- Raster graphics algorithms
-- Coordinate geometry
-- Algorithm optimization
-- Practical implementation of theory
-
 ---
 
 **Happy Learning! 🚀**
