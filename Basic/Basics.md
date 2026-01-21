@@ -31,7 +31,12 @@ turtle.done()
 ### 🟢 Basic Functions
 
 ```python
-t.shape() #
+import turtle
+t = turtle.Turtle()
+help() # get information for turtle module
+help(turtle.shape) # Get specific information for Turtle shape 
+t.shape() # get the current shape of cursor
+t.shape("turtle")  # change the cursor shape
 ```
 
 ### 🟢 Movement Functions
