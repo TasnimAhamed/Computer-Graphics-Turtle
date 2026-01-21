@@ -44,6 +44,15 @@ root.wm_attributes("-topmost", 1)
 help(turtle) # Get help for the turtle module (use in interactive mode)
 help(turtle.shape) # Get specific information about the shape() method
 
+```
+
+
+### 🟢 Shape, Color, Title, Background Color and Background Pic
+
+```python
+import turtle
+t = turtle.Turtle()
+
 t.shape()
 t.shape(name)  # sets turtle shape
 
