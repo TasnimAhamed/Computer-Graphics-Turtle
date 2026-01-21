@@ -110,14 +110,6 @@
 ```python
 # Solution will be added here
 ```
-## 📚 Topics Covered
-
-- Basic Turtle Graphics
-- Line Drawing Algorithms (DDA, Bresenham)
-- Circle Drawing Algorithms (Midpoint)
-- 2D Transformations
-- 3D Transformations
-- OpenGL Graphics
 
 ---
 
