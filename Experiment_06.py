@@ -62,4 +62,24 @@ def midpoint_circle(xc, yc, r):
 t.penup()
 midpoint_circle(cx, cy, r)
 
+
+# Bamboo pole
+pole_x = -W/2
+t.penup()
+t.goto(pole_x, H/2)
+t.setheading(-90)
+t.pendown()
+
+t.color("#8B5A2B")
+t.begin_fill()
+
+for _ in range(2):
+    t.forward(H*2)
+    t.right(90)
+    t.forward(15)   # pole width
+    t.right(90)
+
+t.end_fill()
+
+
 turtle.done()
